@@ -8,9 +8,23 @@ namespace TrainingApp1
 {
     internal class Motorcycle
     {
+        public int driverIntensity;
+
         public void PopAWheely()
         {
-            Console.WriteLine("Yeeeeeeeeeeeee Haaaaaaaaaaaeewwww!");
+            for (int i = 0; i <= driverIntensity; i++)
+            {
+                Console.WriteLine("Yeeeeeeeeeeeee Haaaaaaaaaaaeewwww!");
+            }
+        }
+
+        public Motorcycle(int driverIntensity)
+        {
+            this.driverIntensity = driverIntensity;
+        }
+
+        public Motorcycle()
+        {
         }
     }
 }
