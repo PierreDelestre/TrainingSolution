@@ -9,6 +9,7 @@ namespace TrainingApp1
     internal class Motorcycle
     {
         public int driverIntensity;
+        public string name;
 
         public void PopAWheely()
         {
@@ -26,5 +27,7 @@ namespace TrainingApp1
         public Motorcycle()
         {
         }
+
+        public void SetDriverName(string name) => this.name = name;
     }
 }

@@ -20,4 +20,11 @@ anotherCar.PrintState();
 var moto = new Motorcycle(3);
 moto.PopAWheely();
 
+Console.WriteLine();
+
+var m = new Motorcycle(5);
+m.SetDriverName("Brandon");
+m.PopAWheely();
+Console.WriteLine($"Rider name is {m.name}");
+
 Console.ReadKey();
