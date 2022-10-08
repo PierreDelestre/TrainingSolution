@@ -17,4 +17,7 @@ otherCar.PrintState();
 var anotherCar = new Car("John", 120);
 anotherCar.PrintState();
 
+var moto = new Motorcycle();
+moto.PopAWheely();
+
 Console.ReadKey();
